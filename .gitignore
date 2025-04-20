@@ -1,0 +1,4 @@
+.env
+anon.session
+
+app/core/database/db.sqlite3
