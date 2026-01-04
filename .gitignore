@@ -1,4 +1,11 @@
 .env
-anon.session
+bot.log
+
+temp/
+.venv/
+
+app/handlers/__pycache__
+app/core/system/__pycache__
+app/core/database/__pycache__
 
 app/core/database/db.sqlite3

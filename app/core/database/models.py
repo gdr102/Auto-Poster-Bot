@@ -23,7 +23,6 @@ class Posts(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     text: Mapped[str] = mapped_column(Text, nullable=False)
-    img: Mapped[str] = mapped_column(String, nullable=True)
     status: Mapped[int] = mapped_column(Integer, default=0)
 
 
